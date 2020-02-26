@@ -5,13 +5,15 @@ import (
 	"fmt"
 )
 
+// Qunue 队列的结构体,有问题,添加到最后添加不进去
 type Qunue struct {
 	MacSize int
 	array   [5]int
-	front   int
-	rear    int
+	front   int //前面的指针,
+	rear    int //后面的指针,指向最后一个元素
 }
 
+// CirecleQunue 环形列表的结构体
 type CirecleQunue struct {
 	MaxSize int
 	array   [4]int
