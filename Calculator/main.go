@@ -171,3 +171,7 @@ func main() {
 	r, _ := numStack.PopNum()
 	fmt.Println("最终结果", r)
 }
+
+func defaultAvatar() {
+	fmt.Println("===========")
+}
