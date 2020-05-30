@@ -171,3 +171,8 @@ func main() {
 	r, _ := numStack.PopNum()
 	fmt.Println("最终结果", r)
 }
+
+func getDefault() {
+	num := 1000 % 3
+	fmt.Println("数字", num)
+}
