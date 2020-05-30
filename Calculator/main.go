@@ -176,3 +176,7 @@ func getDefault() {
 	num := 1000 % 3
 	fmt.Println("数字", num)
 }
+
+func defaultAvatar() {
+	fmt.Println("===========")
+}
